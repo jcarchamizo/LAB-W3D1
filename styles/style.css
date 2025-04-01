@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+  }
+  
+  .item{
+    background: grey;
+    padding: 20px;
+    width: 100px;
+    border: 4px solid #cccccc;
+  }
+
+  .container{
+    display: flex;
+    background-color: steelblue;
+
+    flex-direction: row;
+    width: 400px;
+    flex-wrap: wrap;
+  }
