@@ -17,7 +17,6 @@ h1 {
     width: 100px;
     height: 500px;
   
-
     /* flex-flow: row wrap; */
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,7 +24,14 @@ h1 {
     /* row-gap: 10px;
     column-gap: 20px;
 
-    gap: 10px; */
+    gap: 10px;     */
 
     justify-content: space-around;
+    align-items: stretch;
   }
+
+  .buttons{
+    display: flex;
+
+    justify-content: space-between;
+  }    
