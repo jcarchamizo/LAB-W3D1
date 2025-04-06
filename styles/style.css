@@ -3,7 +3,7 @@ h1 {
   }
   
   .item{
-    background: grey;
+    background: orange;
     padding: 20px;
     width: 100px;
     height: 100px;
@@ -12,9 +12,20 @@ h1 {
 
   .container{
     display: flex;
-    background-color: steelblue;
+    background-color: yellow;
 
+    width: 100px;
+    height: 500px;
+  
+
+    /* flex-flow: row wrap; */
     flex-direction: row;
-    width: 400px;
     flex-wrap: wrap;
+
+    /* row-gap: 10px;
+    column-gap: 20px;
+
+    gap: 10px; */
+
+    justify-content: space-around;
   }
